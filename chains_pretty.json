@@ -2172,12 +2172,12 @@
 }, {
   "name": "Armonia Eva Chain Mainnet",
   "chain": "Eva",
-  "rpc": ["https://evachain.io/rpc/", "wss://evachain.io/ws/"],
+  "rpc": ["https://evascan.io/api/eth-rpc/"],
   "faucets": [""],
   "nativeCurrency": {
     "name": "Armonia Multichain Native Token",
     "symbol": "AMAX",
-    "decimals": 8
+    "decimals": 18
   },
   "infoURL": "https://amax.network",
   "shortName": "eva",
@@ -2186,6 +2186,25 @@
   "explorers": [{
     "name": "blockscout - evascan",
     "url": "https://evascan.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Armonia Eva Chain Testnet",
+  "chain": "Wall-e",
+  "rpc": ["https://testnet.evascan.io/api/eth-rpc/"],
+  "faucets": [""],
+  "nativeCurrency": {
+    "name": "Armonia Multichain Native Token",
+    "symbol": "AMAX",
+    "decimals": 18
+  },
+  "infoURL": "https://amax.network",
+  "shortName": "wall-e",
+  "chainId": 161,
+  "networkId": 161,
+  "explorers": [{
+    "name": "blockscout - evascan",
+    "url": "https://testnet.evascan.io",
     "standard": "EIP3091"
   }]
 }, {
