@@ -1533,6 +1533,19 @@
   "faucets": [],
   "infoURL": "https://phi.network"
 }, {
+  "name": "Armonia Eva Chain Mainnet",
+  "chainId": 160,
+  "shortName": "eva",
+  "networkId": 160,
+  "nativeCurrency": {
+    "name": "Armonia Multichain Native Token",
+    "symbol": "AMAX",
+    "decimals": 8
+  },
+  "rpc": ["https://evachain.io/rpc/", "wss://evachain.io/ws/"],
+  "faucets": [""],
+  "infoURL": "https://amax.network"
+}, {
   "name": "Lightstreams Testnet",
   "chainId": 162,
   "shortName": "tpht",
